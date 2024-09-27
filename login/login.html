@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Sign In form</title>
+    <link rel="stylesheet" type="text/css" href="login.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600"
+      rel="stylesheet"
+      type="text/css"
+    />
+  </head>
+
+  <body>
+    <div id="main" class="container">
+      <form
+        name="loginform"
+        id="loginform"
+        action="#"
+        method="post"
+        class="wpl-track-me"
+      >
+        <div class="login-username">
+          <label for="user_login">Username</label>
+          <input
+            type="text"
+            name="log"
+            id="user_login"
+            class="input"
+            value=""
+            size="20"
+            placeholder="Username"
+          />
+        </p>
+        <div class="login-password">
+          <label for="user_pass">Password</label>
+          <input
+            type="password"
+            name="pwd"
+            id="user_pass"
+            class="input"
+            value=""
+            size="20"
+            placeholder="Password"
+          />
+        </p>
+        <div class="login-submit">
+          <input
+            type="submit"
+            name="wp-submit"
+            id="wp-submit"
+            class="button-primary"
+            value="Login"
+          />
+          <div>
+            <h1>
+             username = /^[a-zA-Z0-9]{5,}$/
+            </h1> 
+            <h1>
+              password = /^([0-9]|\_)[a-z]{3}$/
+            </h1>
+         </div>
+        </p>
+      </form>
+    </div>
+  </body>
+  <script src="login.js"></script>
+</html>

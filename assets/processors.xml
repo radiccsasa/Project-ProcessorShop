@@ -1,0 +1,1114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Processors>
+    <Processor>
+        <Name>EPYC 7203</Name>
+        <Codename>Milan</Codename>
+        <Cores>8 / 16</Cores>
+        <Clock>2.8 to 3.4 GHz</Clock>
+        <Socket>Socket SP3</Socket>
+        <Process>7 nm</Process>
+        <L3Cache>64 MB</L3Cache>
+        <TDP>120 W</TDP>
+        <Released>Sep 5th, 2023</Released>
+    </Processor>
+    <Processor>
+        <Name>EPYC 7203P</Name>
+        <Codename>Milan</Codename>
+        <Cores>8 / 16</Cores>
+        <Clock>2.8 to 3.4 GHz</Clock>
+        <Socket>Socket SP3</Socket>
+        <Process>7 nm</Process>
+        <L3Cache>64 MB</L3Cache>
+        <TDP>120 W</TDP>
+        <Released>Sep 5th, 2023</Released>
+    </Processor>
+    <Processor>
+        <Name>EPYC 7303</Name>
+        <Codename>Milan</Codename>
+        <Cores>16 / 32</Cores>
+        <Clock>2.4 to 3.4 GHz</Clock>
+        <Socket>Socket SP3</Socket>
+        <Process>7 nm</Process>
+        <L3Cache>64 MB</L3Cache>
+        <TDP>130 W</TDP>
+        <Released>Sep 5th, 2023</Released>
+    </Processor>
+    <Processor>
+        <Name>EPYC 7303P</Name>
+        <Codename>Milan</Codename>
+        <Cores>16 / 32</Cores>
+        <Clock>2.4 to 3.4 GHz</Clock>
+        <Socket>Socket SP3</Socket>
+        <Process>7 nm</Process>
+        <L3Cache>64 MB</L3Cache>
+        <TDP>130 W</TDP>
+        <Released>Sep 5th, 2023</Released>
+    </Processor>
+    <Processor>
+        <Name>EPYC 7643P</Name>
+        <Codename>Milan</Codename>
+        <Cores>48 / 96</Cores>
+        <Clock>2.3 to 3.6 GHz</Clock>
+        <Socket>Socket SP3</Socket>
+        <Process>7 nm</Process>
+        <L3Cache>256 MB</L3Cache>
+        <TDP>225 W</TDP>
+        <Released>Sep 5th, 2023</Released>
+    </Processor>
+    <Processor>
+        <Name>EPYC 7663P</Name>
+        <Codename>Milan</Codename>
+        <Cores>56 / 112</Cores>
+        <Clock>2 to 3.5 GHz</Clock>
+        <Socket>Socket SP3</Socket>
+        <Process>7 nm</Process>
+        <L3Cache>256 MB</L3Cache>
+        <TDP>240 W</TDP>
+        <Released>Sep 5th, 2023</Released>
+    </Processor>
+    <Processor>
+        <Name>EPYC 8024P</Name>
+        <Codename>Siena</Codename>
+        <Cores>8 / 16</Cores>
+        <Clock>2.4 to 3 GHz</Clock>
+        <Socket>Socket SP6</Socket>
+        <Process>5 nm</Process>
+        <L3Cache>32 MB</L3Cache>
+        <TDP>90 W</TDP>
+        <Released>Sep 18th, 2023</Released>
+    </Processor>
+    <Processor>
+        <Name>EPYC 8024PN</Name>
+        <Codename>Siena</Codename>
+        <Cores>8 / 16</Cores>
+        <Clock>2.05 to 3 GHz</Clock>
+        <Socket>Socket SP6</Socket>
+        <Process>5 nm</Process>
+        <L3Cache>32 MB</L3Cache>
+        <TDP>80 W</TDP>
+        <Released>Sep 18th, 2023</Released>
+    </Processor>
+    <Processor>
+        <Name>EPYC 8124P</Name>
+        <Codename>Siena</Codename>
+        <Cores>16 / 32</Cores>
+        <Clock>2.45 to 3 GHz</Clock>
+        <Socket>Socket SP6</Socket>
+        <Process>5 nm</Process>
+        <L3Cache>64 MB</L3Cache>
+        <TDP>125 W</TDP>
+        <Released>Sep 18th, 2023</Released>
+    </Processor>
+    <Processor>
+        <Name>EPYC 8124PN</Name>
+        <Codename>Siena</Codename>
+        <Cores>16 / 32</Cores>
+        <Clock>2 to 3 GHz</Clock>
+        <Socket>Socket SP6</Socket>
+        <Process>5 nm</Process>
+        <L3Cache>64 MB</L3Cache>
+        <TDP>100 W</TDP>
+        <Released>Sep 18th, 2023</Released>
+    </Processor>
+    <Processor>
+        <Name>EPYC 8224P</Name>
+        <Codename>Siena</Codename>
+        <Cores>24 / 48</Cores>
+        <Clock>2.55 to 3 GHz</Clock>
+        <Socket>Socket SP6</Socket>
+        <Process>5 nm</Process>
+        <L3Cache>64 MB</L3Cache>
+        <TDP>160 W</TDP>
+        <Released>Sep 18th, 2023</Released>
+    </Processor>
+    <Processor>
+        <Name>EPYC 8224PN</Name>
+        <Codename>Siena</Codename>
+        <Cores>24 / 48</Cores>
+        <Clock>2 to 3 GHz</Clock>
+        <Socket>Socket SP6</Socket>
+        <Process>5 nm</Process>
+        <L3Cache>64 MB</L3Cache>
+        <TDP>120 W</TDP>
+        <Released>Sep 18th, 2023</Released>
+    </Processor>
+    <Processor>
+        <Name>EPYC 8324P</Name>
+        <Codename>Siena</Codename>
+        <Cores>32 / 64</Cores>
+        <Clock>2.65 to 3 GHz</Clock>
+        <Socket>Socket SP6</Socket>
+        <Process>5 nm</Process>
+        <L3Cache>128 MB</L3Cache>
+        <TDP>180 W</TDP>
+        <Released>Sep 18th, 2023</Released>
+    </Processor>
+    <Processor>
+        <Name>EPYC 8324PN</Name>
+        <Codename>Siena</Codename>
+        <Cores>32 / 64</Cores>
+        <Clock>2.05 to 3 GHz</Clock>
+        <Socket>Socket SP6</Socket>
+        <Process>5 nm</Process>
+        <L3Cache>128 MB</L3Cache>
+        <TDP>130 W</TDP>
+        <Released>Sep 18th, 2023</Released>
+    </Processor>
+    <Processor>
+        <Name>EPYC 8434P</Name>
+        <Codename>Siena</Codename>
+        <Cores>48 / 96</Cores>
+        <Clock>2.5 to 3.1 GHz</Clock>
+        <Socket>Socket SP6</Socket>
+        <Process>5 nm</Process>
+        <L3Cache>128 MB</L3Cache>
+        <TDP>200 W</TDP>
+        <Released>Sep 18th, 2023</Released>
+    </Processor>
+    <Processor>
+        <Name>EPYC 8434PN</Name>
+        <Codename>Siena</Codename>
+        <Cores>48 / 96</Cores>
+        <Clock>2 to 3 GHz</Clock>
+        <Socket>Socket SP6</Socket>
+        <Process>5 nm</Process>
+        <L3Cache>128 MB</L3Cache>
+        <TDP>155 W</TDP>
+        <Released>Sep 18th, 2023</Released>
+    </Processor>
+    <Processor>
+        <Name>EPYC 8534P</Name>
+        <Codename>Siena</Codename>
+        <Cores>64 / 128</Cores>
+        <Clock>2.3 to 3.1 GHz</Clock>
+        <Socket>Socket SP6</Socket>
+        <Process>5 nm</Process>
+        <L3Cache>128 MB</L3Cache>
+        <TDP>200 W</TDP>
+        <Released>Sep 18th, 2023</Released>
+    </Processor>
+    <Processor>
+        <Name>EPYC 8534PN</Name>
+        <Codename>Siena</Codename>
+        <Cores>64 / 128</Cores>
+        <Clock>2 to 3.1 GHz</Clock>
+        <Socket>Socket SP6</Socket>
+        <Process>5 nm</Process>
+        <L3Cache>128 MB</L3Cache>
+        <TDP>175 W</TDP>
+        <Released>Sep 18th, 2023</Released>
+    </Processor>
+    <Processor>
+        <Name>EPYC 9184X</Name>
+        <Codename>Genoa-X</Codename>
+        <Cores>16 / 32</Cores>
+        <Clock>3.55 to 4.2 GHz</Clock>
+        <Socket>Socket SP5</Socket>
+        <Process>5 nm</Process>
+        <L3Cache>768 MB</L3Cache>
+        <TDP>320 W</TDP>
+        <Released>Jun 13th, 2023</Released>
+    </Processor>
+    <Processor>
+        <Name>EPYC 9384X</Name>
+        <Codename>Genoa-X</Codename>
+        <Cores>32 / 64</Cores>
+        <Clock>3.1 to 3.9 GHz</Clock>
+        <Socket>Socket SP5</Socket>
+        <Process>5 nm</Process>
+        <L3Cache>768 MB</L3Cache>
+        <TDP>320 W</TDP>
+        <Released>Jun 13th, 2023</Released>
+    </Processor>
+    <Processor>
+        <Name>EPYC 9684X</Name>
+        <Codename>Genoa-X</Codename>
+        <Cores>96 / 192</Cores>
+        <Clock>2.55 to 3.7 GHz</Clock>
+        <Socket>Socket SP5</Socket>
+        <Process>5 nm</Process>
+        <L3Cache>1152 MB</L3Cache>
+        <TDP>400 W</TDP>
+        <Released>Jun 13th, 2023</Released>
+    </Processor>
+    <Processor>
+        <Name>EPYC 9734</Name>
+        <Codename>Bergamo</Codename>
+        <Cores>112 / 224</Cores>
+        <Clock>2.2 to 3 GHz</Clock>
+        <Socket>Socket SP5</Socket>
+        <Process>5 nm</Process>
+        <L3Cache>256 MB</L3Cache>
+        <TDP>340 W</TDP>
+        <Released>Jun 13th, 2023</Released>
+    </Processor>
+    <Processor>
+        <Name>EPYC 9754</Name>
+        <Codename>Bergamo</Codename>
+        <Cores>128 / 256</Cores>
+        <Clock>2.25 to 3.1 GHz</Clock>
+        <Socket>Socket SP5</Socket>
+        <Process>5 nm</Process>
+        <L3Cache>256 MB</L3Cache>
+        <TDP>360 W</TDP>
+        <Released>Jun 13th, 2023</Released>
+    </Processor>
+    <Processor>
+        <Name>EPYC 9754S</Name>
+        <Codename>Bergamo</Codename>
+        <Cores>128 / 256</Cores>
+        <Clock>2.25 to 3.1 GHz</Clock>
+        <Socket>Socket SP5</Socket>
+        <Process>5 nm</Process>
+        <L3Cache>256 MB</L3Cache>
+        <TDP>360 W</TDP>
+        <Released>Jun 13th, 2023</Released>
+    </Processor>
+    <Processor>
+        <Name>EPYC Embedded 9124</Name>
+        <Codename>Genoa</Codename>
+        <Cores>16 / 32</Cores>
+        <Clock>3 to 3.7 GHz</Clock>
+        <Socket>Socket SP5</Socket>
+        <Process>5 nm</Process>
+        <L3Cache>64 MB</L3Cache>
+        <TDP>200 W</TDP>
+        <Released>Mar 14th, 2023</Released>
+    </Processor>
+    <Processor>
+        <Name>EPYC Embedded 9254</Name>
+        <Codename>Genoa</Codename>
+        <Cores>24 / 48</Cores>
+        <Clock>2.9 to 4.15 GHz</Clock>
+        <Socket>Socket SP5</Socket>
+        <Process>5 nm</Process>
+        <L3Cache>128 MB</L3Cache>
+        <TDP>200 W</TDP>
+        <Released>Mar 14th, 2023</Released>
+    </Processor>
+    <Processor>
+        <Name>EPYC Embedded 9354</Name>
+        <Codename>Genoa</Codename>
+        <Cores>32 / 64</Cores>
+        <Clock>3.25 to 3.8 GHz</Clock>
+        <Socket>Socket SP5</Socket>
+        <Process>5 nm</Process>
+        <L3Cache>256 MB</L3Cache>
+        <TDP>280 W</TDP>
+        <Released>Mar 14th, 2023</Released>
+    </Processor>
+    <Processor>
+        <Name>EPYC Embedded 9354P</Name>
+        <Codename>Genoa</Codename>
+        <Cores>32 / 64</Cores>
+        <Clock>3.25 to 3.8 GHz</Clock>
+        <Socket>Socket SP5</Socket>
+        <Process>5 nm</Process>
+        <L3Cache>256 MB</L3Cache>
+        <TDP>280 W</TDP>
+        <Released>Mar 14th, 2023</Released>
+    </Processor>
+    <Processor>
+        <Name>EPYC Embedded 9454</Name>
+        <Codename>Genoa</Codename>
+        <Cores>48 / 96</Cores>
+        <Clock>2.75 to 3.8 GHz</Clock>
+        <Socket>Socket SP5</Socket>
+        <Process>5 nm</Process>
+        <L3Cache>256 MB</L3Cache>
+        <TDP>290 W</TDP>
+        <Released>Mar 14th, 2023</Released>
+    </Processor>
+    <Processor>
+        <Name>EPYC Embedded 9454P</Name>
+        <Codename>Genoa</Codename>
+        <Cores>48 / 96</Cores>
+        <Clock>2.75 to 3.8 GHz</Clock>
+        <Socket>Socket SP5</Socket>
+        <Process>5 nm</Process>
+        <L3Cache>256 MB</L3Cache>
+        <TDP>290 W</TDP>
+        <Released>Mar 14th, 2023</Released>
+    </Processor>
+    <Processor>
+        <Name>EPYC Embedded 9554</Name>
+        <Codename>Genoa</Codename>
+        <Cores>64 / 128</Cores>
+        <Clock>3.1 to 3.75 GHz</Clock>
+        <Socket>Socket SP5</Socket>
+        <Process>5 nm</Process>
+        <L3Cache>256 MB</L3Cache>
+        <TDP>360 W</TDP>
+        <Released>Mar 14th, 2023</Released>
+    </Processor>
+    <Processor>
+        <Name>EPYC Embedded 9554P</Name>
+        <Codename>Genoa</Codename>
+        <Cores>64 / 128</Cores>
+        <Clock>3.1 to 3.75 GHz</Clock>
+        <Socket>Socket SP5</Socket>
+        <Process>5 nm</Process>
+        <L3Cache>256 MB</L3Cache>
+        <TDP>360 W</TDP>
+        <Released>Mar 14th, 2023</Released>
+    </Processor>
+    <Processor>
+        <Name>EPYC Embedded 9654</Name>
+        <Codename>Genoa</Codename>
+        <Cores>96 / 192</Cores>
+        <Clock>2.4 to 3.7 GHz</Clock>
+        <Socket>Socket SP5</Socket>
+        <Process>5 nm</Process>
+        <L3Cache>384 MB</L3Cache>
+        <TDP>360 W</TDP>
+        <Released>Mar 14th, 2023</Released>
+    </Processor>
+    <Processor>
+        <Name>EPYC Embedded 9654P</Name>
+        <Codename>Genoa</Codename>
+        <Cores>96 / 192</Cores>
+        <Clock>2.4 to 3.7 GHz</Clock>
+        <Socket>Socket SP5</Socket>
+        <Process>5 nm</Process>
+        <L3Cache>384 MB</L3Cache>
+        <TDP>360 W</TDP>
+        <Released>Mar 14th, 2023</Released>
+    </Processor>
+    <Processor>
+        <Name>Ryzen 5 5600X3D</Name>
+        <Codename>Vermeer</Codename>
+        <Cores>6 / 12</Cores>
+        <Clock>3.3 to 4.4 GHz</Clock>
+        <Socket>Socket AM4</Socket>
+        <Process>7 nm</Process>
+        <L3Cache>96 MB</L3Cache>
+        <TDP>105 W</TDP>
+        <Released>Jul 7th, 2023</Released>
+    </Processor>
+    <Processor>
+        <Name>Ryzen 5 7500F</Name>
+        <Codename>Raphael</Codename>
+        <Cores>6 / 12</Cores>
+        <Clock>3.7 to 5 GHz</Clock>
+        <Socket>Socket AM5</Socket>
+        <Process>5 nm</Process>
+        <L3Cache>32 MB</L3Cache>
+        <TDP>65 W</TDP>
+        <Released>Jul 22nd, 2023</Released>
+    </Processor>
+    <Processor>
+        <Name>Ryzen 5 PRO 7645</Name>
+        <Codename>Raphael</Codename>
+        <Cores>6 / 12</Cores>
+        <Clock>3.8 to 5.1 GHz</Clock>
+        <Socket>Socket AM5</Socket>
+        <Process>5 nm</Process>
+        <L3Cache>32 MB</L3Cache>
+        <TDP>65 W</TDP>
+        <Released>Jun 13th, 2023</Released>
+    </Processor>
+    <Processor>
+        <Name>Ryzen 7 PRO 7745</Name>
+        <Codename>Raphael</Codename>
+        <Cores>8 / 16</Cores>
+        <Clock>3.8 to 5.3 GHz</Clock>
+        <Socket>Socket AM5</Socket>
+        <Process>5 nm</Process>
+        <L3Cache>32 MB</L3Cache>
+        <TDP>65 W</TDP>
+        <Released>Jun 13th, 2023</Released>
+    </Processor>
+    <Processor>
+        <Name>Ryzen 9 PRO 7945</Name>
+        <Codename>Raphael</Codename>
+        <Cores>12 / 24</Cores>
+        <Clock>3.7 to 5.4 GHz</Clock>
+        <Socket>Socket AM5</Socket>
+        <Process>5 nm</Process>
+        <L3Cache>64 MB</L3Cache>
+        <TDP>65 W</TDP>
+        <Released>Jun 13th, 2023</Released>
+    </Processor>
+    <Processor>
+        <Name>Ryzen Embedded 5600E</Name>
+        <Codename>Vermeer</Codename>
+        <Cores>6 / 12</Cores>
+        <Clock>3.3 to 3.6 GHz</Clock>
+        <Socket>Socket AM4</Socket>
+        <Process>7 nm</Process>
+        <L3Cache>32 MB</L3Cache>
+        <TDP>65 W</TDP>
+        <Released>Apr 20th, 2023</Released>
+    </Processor>
+    <Processor>
+        <Name>Ryzen Embedded 5800E</Name>
+        <Codename>Vermeer</Codename>
+        <Cores>8 / 16</Cores>
+        <Clock>3.4 to 3.7 GHz</Clock>
+        <Socket>Socket AM4</Socket>
+        <Process>7 nm</Process>
+        <L3Cache>32 MB</L3Cache>
+        <TDP>100 W</TDP>
+        <Released>Apr 20th, 2023</Released>
+    </Processor>
+    <Processor>
+        <Name>Ryzen Embedded 5900E</Name>
+        <Codename>Vermeer</Codename>
+        <Cores>12 / 24</Cores>
+        <Clock>3.35 to 3.7 GHz</Clock>
+        <Socket>Socket AM4</Socket>
+        <Process>7 nm</Process>
+        <L3Cache>64 MB</L3Cache>
+        <TDP>105 W</TDP>
+        <Released>Apr 20th, 2023</Released>
+    </Processor>
+    <Processor>
+        <Name>Ryzen Embedded 5950E</Name>
+        <Codename>Vermeer</Codename>
+        <Cores>16 / 32</Cores>
+        <Clock>3.05 to 3.4 GHz</Clock>
+        <Socket>Socket AM4</Socket>
+        <Process>7 nm</Process>
+        <L3Cache>64 MB</L3Cache>
+        <TDP>105 W</TDP>
+        <Released>Apr 20th, 2023</Released>
+    </Processor>
+    <Processor>
+        <Name>Ryzen Threadripper 7960X</Name>
+        <Codename>Storm Peak</Codename>
+        <Cores>24 / 48</Cores>
+        <Clock>4.2 to 5.3 GHz</Clock>
+        <Socket>Socket sTR5</Socket>
+        <Process>5 nm</Process>
+        <L3Cache>128 MB</L3Cache>
+        <TDP>350 W</TDP>
+        <Released>Oct 19th, 2023</Released>
+    </Processor>
+    <Processor>
+        <Name>Ryzen Threadripper 7970X</Name>
+        <Codename>Storm Peak</Codename>
+        <Cores>32 / 64</Cores>
+        <Clock>4 to 5.3 GHz</Clock>
+        <Socket>Socket sTR5</Socket>
+        <Process>5 nm</Process>
+        <L3Cache>128 MB</L3Cache>
+        <TDP>350 W</TDP>
+        <Released>Oct 19th, 2023</Released>
+    </Processor>
+    <Processor>
+        <Name>Ryzen Threadripper 7980X</Name>
+        <Codename>Storm Peak</Codename>
+        <Cores>64 / 128</Cores>
+        <Clock>3.2 to 5.1 GHz</Clock>
+        <Socket>Socket sTR5</Socket>
+        <Process>5 nm</Process>
+        <L3Cache>256 MB</L3Cache>
+        <TDP>350 W</TDP>
+        <Released>Oct 19th, 2023</Released>
+    </Processor>
+    <Processor>
+        <Name>Ryzen Threadripper PRO 7965WX</Name>
+        <Codename>Storm Peak</Codename>
+        <Cores>24 / 48</Cores>
+        <Clock>4.2 to 5.3 GHz</Clock>
+        <Socket>Socket sTR5</Socket>
+        <Process>5 nm</Process>
+        <L3Cache>128 MB</L3Cache>
+        <TDP>350 W</TDP>
+        <Released>Oct 19th, 2023</Released>
+    </Processor>
+    <Processor>
+        <Name>Ryzen Threadripper PRO 7975WX</Name>
+        <Codename>Storm Peak</Codename>
+        <Cores>32 / 64</Cores>
+        <Clock>4 to 5.3 GHz</Clock>
+        <Socket>Socket sTR5</Socket>
+        <Process>5 nm</Process>
+        <L3Cache>128 MB</L3Cache>
+        <TDP>350 W</TDP>
+        <Released>Oct 19th, 2023</Released>
+    </Processor>
+    <Processor>
+        <Name>Ryzen Threadripper PRO 7985WX</Name>
+        <Codename>Storm Peak</Codename>
+        <Cores>64 / 128</Cores>
+        <Clock>3.2 to 5.1 GHz</Clock>
+        <Socket>Socket sTR5</Socket>
+        <Process>5 nm</Process>
+        <L3Cache>256 MB</L3Cache>
+        <TDP>350 W</TDP>
+        <Released>Oct 19th, 2023</Released>
+    </Processor>
+    <Processor>
+        <Name>Ryzen Threadripper PRO 7995WX</Name>
+        <Codename>Storm Peak</Codename>
+        <Cores>96 / 192</Cores>
+        <Clock>2.5 to 5.1 GHz</Clock>
+        <Socket>Socket sTR5</Socket>
+        <Process>5 nm</Process>
+        <L3Cache>384 MB</L3Cache>
+        <TDP>350 W</TDP>
+        <Released>Oct 19th, 2023</Released>
+    </Processor>
+    <Processor>
+        <Name>Threadripper PRO 7945WX</Name>
+        <Codename>Storm Peak</Codename>
+        <Cores>12 / 24</Cores>
+        <Clock>4.7 to 5.3 GHz</Clock>
+        <Socket>Socket sTR5</Socket>
+        <Process>5 nm</Process>
+        <L3Cache>64 MB</L3Cache>
+        <TDP>350 W</TDP>
+        <Released>Oct 19th, 2023</Released>
+    </Processor>
+    <Processor>
+        <Name>Threadripper PRO 7955WX</Name>
+        <Codename>Storm Peak</Codename>
+        <Cores>16 / 32</Cores>
+        <Clock>4.5 to 5.3 GHz</Clock>
+        <Socket>Socket sTR5</Socket>
+        <Process>5 nm</Process>
+        <L3Cache>64 MB</L3Cache>
+        <TDP>350 W</TDP>
+        <Released>Oct 19th, 2023</Released>
+    </Processor>
+    <Processor>
+        <Name>Core i5-14600K</Name>
+        <Codename>Raptor Lake-R</Codename>
+        <Cores>14 / 20</Cores>
+        <Clock>3.5 to 5.3 GHz</Clock>
+        <Socket>Socket 1700</Socket>
+        <Process>10 nm</Process>
+        <L3Cache>24 MB</L3Cache>
+        <TDP>125 W</TDP>
+        <Released>Oct 17th, 2023</Released>
+    </Processor>
+    <Processor>
+        <Name>Core i5-14600KF</Name>
+        <Codename>Raptor Lake-R</Codename>
+        <Cores>14 / 20</Cores>
+        <Clock>3.5 to 5.3 GHz</Clock>
+        <Socket>Socket 1700</Socket>
+        <Process>10 nm</Process>
+        <L3Cache>24 MB</L3Cache>
+        <TDP>125 W</TDP>
+        <Released>Oct 17th, 2023</Released>
+    </Processor>
+    <Processor>
+        <Name>Core i7-14700K</Name>
+        <Codename>Raptor Lake-R</Codename>
+        <Cores>20 / 28</Cores>
+        <Clock>3.4 to 5.6 GHz</Clock>
+        <Socket>Socket 1700</Socket>
+        <Process>10 nm</Process>
+        <L3Cache>33 MB</L3Cache>
+        <TDP>125 W</TDP>
+        <Released>Oct 17th, 2023</Released>
+    </Processor>
+    <Processor>
+        <Name>Core i7-14700KF</Name>
+        <Codename>Raptor Lake-R</Codename>
+        <Cores>20 / 28</Cores>
+        <Clock>3.4 to 5.6 GHz</Clock>
+        <Socket>Socket 1700</Socket>
+        <Process>10 nm</Process>
+        <L3Cache>33 MB</L3Cache>
+        <TDP>125 W</TDP>
+        <Released>Oct 17th, 2023</Released>
+    </Processor>
+    <Processor>
+        <Name>Core i9-14900K</Name>
+        <Codename>Raptor Lake-R</Codename>
+        <Cores>24 / 32</Cores>
+        <Clock>3.2 to 6 GHz</Clock>
+        <Socket>Socket 1700</Socket>
+        <Process>10 nm</Process>
+        <L3Cache>36 MB</L3Cache>
+        <TDP>125 W</TDP>
+        <Released>Oct 17th, 2023</Released>
+    </Processor>
+    <Processor>
+        <Name>Core i9-14900KF</Name>
+        <Codename>Raptor Lake-R</Codename>
+        <Cores>24 / 32</Cores>
+        <Clock>3.2 to 6 GHz</Clock>
+        <Socket>Socket 1700</Socket>
+        <Process>10 nm</Process>
+        <L3Cache>36 MB</L3Cache>
+        <TDP>125 W</TDP>
+        <Released>Oct 17th, 2023</Released>
+    </Processor>
+    <Processor>
+        <Name>Xeon E-2414</Name>
+        <Codename>Raptor Lake-S</Codename>
+        <Cores>4</Cores>
+        <Clock>2.6 to 4.5 GHz</Clock>
+        <Socket>Socket 1700</Socket>
+        <Process>10 nm</Process>
+        <L3Cache>12 MB</L3Cache>
+        <TDP>55 W</TDP>
+        <Released>Dec 14th, 2023</Released>
+    </Processor>
+    <Processor>
+        <Name>Xeon E-2434</Name>
+        <Codename>Raptor Lake-S</Codename>
+        <Cores>4 / 8</Cores>
+        <Clock>3.4 to 5 GHz</Clock>
+        <Socket>Socket 1700</Socket>
+        <Process>10 nm</Process>
+        <L3Cache>12 MB</L3Cache>
+        <TDP>55 W</TDP>
+        <Released>Dec 14th, 2023</Released>
+    </Processor>
+    <Processor>
+        <Name>Xeon E-2436</Name>
+        <Codename>Raptor Lake-S</Codename>
+        <Cores>6 / 12</Cores>
+        <Clock>2.9 to 5 GHz</Clock>
+        <Socket>Socket 1700</Socket>
+        <Process>10 nm</Process>
+        <L3Cache>18 MB</L3Cache>
+        <TDP>65 W</TDP>
+        <Released>Dec 14th, 2023</Released>
+    </Processor>
+    <Processor>
+        <Name>Xeon E-2456</Name>
+        <Codename>Raptor Lake-S</Codename>
+        <Cores>6 / 12</Cores>
+        <Clock>3.3 to 5.1 GHz</Clock>
+        <Socket>Socket 1700</Socket>
+        <Process>10 nm</Process>
+        <L3Cache>18 MB</L3Cache>
+        <TDP>80 W</TDP>
+        <Released>Dec 14th, 2023</Released>
+    </Processor>
+    <Processor>
+        <Name>Xeon E-2468</Name>
+        <Codename>Raptor Lake-S</Codename>
+        <Cores>8 / 16</Cores>
+        <Clock>2.6 to 5.2 GHz</Clock>
+        <Socket>Socket 1700</Socket>
+        <Process>10 nm</Process>
+        <L3Cache>24 MB</L3Cache>
+        <TDP>65 W</TDP>
+        <Released>Dec 14th, 2023</Released>
+    </Processor>
+    <Processor>
+        <Name>Xeon E-2478</Name>
+        <Codename>Raptor Lake-S</Codename>
+        <Cores>8 / 16</Cores>
+        <Clock>2.8 to 5.2 GHz</Clock>
+        <Socket>Socket 1700</Socket>
+        <Process>10 nm</Process>
+        <L3Cache>24 MB</L3Cache>
+        <TDP>80 W</TDP>
+        <Released>Dec 14th, 2023</Released>
+    </Processor>
+    <Processor>
+        <Name>Xeon E-2486</Name>
+        <Codename>Raptor Lake-S</Codename>
+        <Cores>6 / 12</Cores>
+        <Clock>3.5 to 5.6 GHz</Clock>
+        <Socket>Socket 1700</Socket>
+        <Process>10 nm</Process>
+        <L3Cache>18 MB</L3Cache>
+        <TDP>95 W</TDP>
+        <Released>Dec 14th, 2023</Released>
+    </Processor>
+    <Processor>
+        <Name>Xeon E-2488</Name>
+        <Codename>Raptor Lake-S</Codename>
+        <Cores>8 / 16</Cores>
+        <Clock>3.2 to 5.6 GHz</Clock>
+        <Socket>Socket 1700</Socket>
+        <Process>10 nm</Process>
+        <L3Cache>24 MB</L3Cache>
+        <TDP>95 W</TDP>
+        <Released>Dec 14th, 2023</Released>
+    </Processor>
+    <Processor>
+        <Name>Xeon Gold 5512U</Name>
+        <Codename>Emerald Rapids</Codename>
+        <Cores>28 / 56</Cores>
+        <Clock>2.1 to 3.7 GHz</Clock>
+        <Socket>Socket 4677</Socket>
+        <Process>10 nm</Process>
+        <L3Cache>52.5 MB</L3Cache>
+        <TDP>185 W</TDP>
+        <Released>Dec 14th, 2023</Released>
+    </Processor>
+    <Processor>
+        <Name>Xeon Gold 5515+</Name>
+        <Codename>Emerald Rapids</Codename>
+        <Cores>8 / 16</Cores>
+        <Clock>3.2 to 4.1 GHz</Clock>
+        <Socket>Socket 4677</Socket>
+        <Process>10 nm</Process>
+        <L3Cache>22.5 MB</L3Cache>
+        <TDP>165 W</TDP>
+        <Released>Dec 14th, 2023</Released>
+    </Processor>
+    <Processor>
+        <Name>Xeon Gold 5520+</Name>
+        <Codename>Emerald Rapids</Codename>
+        <Cores>28 / 56</Cores>
+        <Clock>2.2 to 4 GHz</Clock>
+        <Socket>Socket 4677</Socket>
+        <Process>10 nm</Process>
+        <L3Cache>52.5 MB</L3Cache>
+        <TDP>205 W</TDP>
+        <Released>Dec 14th, 2023</Released>
+    </Processor>
+    <Processor>
+        <Name>Xeon Gold 6526Y</Name>
+        <Codename>Emerald Rapids</Codename>
+        <Cores>16 / 32</Cores>
+        <Clock>2.8 to 3.9 GHz</Clock>
+        <Socket>Socket 4677</Socket>
+        <Process>10 nm</Process>
+        <L3Cache>37.5 MB</L3Cache>
+        <TDP>195 W</TDP>
+        <Released>Dec 14th, 2023</Released>
+    </Processor>
+    <Processor>
+        <Name>Xeon Gold 6530</Name>
+        <Codename>Emerald Rapids</Codename>
+        <Cores>32 / 64</Cores>
+        <Clock>2.1 to 4 GHz</Clock>
+        <Socket>Socket 4677</Socket>
+        <Process>10 nm</Process>
+        <L3Cache>160 MB</L3Cache>
+        <TDP>270 W</TDP>
+        <Released>Dec 14th, 2023</Released>
+    </Processor>
+    <Processor>
+        <Name>Xeon Gold 6534</Name>
+        <Codename>Emerald Rapids</Codename>
+        <Cores>8 / 16</Cores>
+        <Clock>3.9 to 4.2 GHz</Clock>
+        <Socket>Socket 4677</Socket>
+        <Process>10 nm</Process>
+        <L3Cache>22.5 MB</L3Cache>
+        <TDP>195 W</TDP>
+        <Released>Dec 14th, 2023</Released>
+    </Processor>
+    <Processor>
+        <Name>Xeon Gold 6538N</Name>
+        <Codename>Emerald Rapids</Codename>
+        <Cores>32 / 64</Cores>
+        <Clock>2.1 to 4.1 GHz</Clock>
+        <Socket>Socket 4677</Socket>
+        <Process>10 nm</Process>
+        <L3Cache>60 MB</L3Cache>
+        <TDP>205 W</TDP>
+        <Released>Dec 14th, 2023</Released>
+    </Processor>
+    <Processor>
+        <Name>Xeon Gold 6542Y</Name>
+        <Codename>Emerald Rapids</Codename>
+        <Cores>24 / 48</Cores>
+        <Clock>2.9 to 4.1 GHz</Clock>
+        <Socket>Socket 4677</Socket>
+        <Process>10 nm</Process>
+        <L3Cache>60 MB</L3Cache>
+        <TDP>250 W</TDP>
+        <Released>Dec 14th, 2023</Released>
+    </Processor>
+    <Processor>
+        <Name>Xeon Gold 6544Y</Name>
+        <Codename>Emerald Rapids</Codename>
+        <Cores>16 / 32</Cores>
+        <Clock>3.6 to 4.1 GHz</Clock>
+        <Socket>Socket 4677</Socket>
+        <Process>10 nm</Process>
+        <L3Cache>45 MB</L3Cache>
+        <TDP>270 W</TDP>
+        <Released>Dec 14th, 2023</Released>
+    </Processor>
+    <Processor>
+        <Name>Xeon Gold 6548N</Name>
+        <Codename>Emerald Rapids</Codename>
+        <Cores>32 / 64</Cores>
+        <Clock>2.8 to 4.1 GHz</Clock>
+        <Socket>Socket 4677</Socket>
+        <Process>10 nm</Process>
+        <L3Cache>60 MB</L3Cache>
+        <TDP>270 W</TDP>
+        <Released>Dec 14th, 2023</Released>
+    </Processor>
+    <Processor>
+        <Name>Xeon Gold 6548Y+</Name>
+        <Codename>Emerald Rapids</Codename>
+        <Cores>32 / 64</Cores>
+        <Clock>2.5 to 4.1 GHz</Clock>
+        <Socket>Socket 4677</Socket>
+        <Process>10 nm</Process>
+        <L3Cache>60 MB</L3Cache>
+        <TDP>250 W</TDP>
+        <Released>Dec 14th, 2023</Released>
+    </Processor>
+    <Processor>
+        <Name>Xeon Gold 6554S</Name>
+        <Codename>Emerald Rapids</Codename>
+        <Cores>36 / 72</Cores>
+        <Clock>2.2 to 4 GHz</Clock>
+        <Socket>Socket 4677</Socket>
+        <Process>10 nm</Process>
+        <L3Cache>180 MB</L3Cache>
+        <TDP>270 W</TDP>
+        <Released>Dec 14th, 2023</Released>
+    </Processor>
+    <Processor>
+        <Name>Xeon Platinum 8558</Name>
+        <Codename>Emerald Rapids</Codename>
+        <Cores>48 / 96</Cores>
+        <Clock>2.1 to 4 GHz</Clock>
+        <Socket>Socket 4677</Socket>
+        <Process>10 nm</Process>
+        <L3Cache>260 MB</L3Cache>
+        <TDP>330 W</TDP>
+        <Released>Dec 14th, 2023</Released>
+    </Processor>
+    <Processor>
+        <Name>Xeon Platinum 8558P</Name>
+        <Codename>Emerald Rapids</Codename>
+        <Cores>48 / 96</Cores>
+        <Clock>2.7 to 4 GHz</Clock>
+        <Socket>Socket 4677</Socket>
+        <Process>10 nm</Process>
+        <L3Cache>260 MB</L3Cache>
+        <TDP>350 W</TDP>
+        <Released>Dec 14th, 2023</Released>
+    </Processor>
+    <Processor>
+        <Name>Xeon Platinum 8558U</Name>
+        <Codename>Emerald Rapids</Codename>
+        <Cores>48 / 96</Cores>
+        <Clock>2 to 4 GHz</Clock>
+        <Socket>Socket 4677</Socket>
+        <Process>10 nm</Process>
+        <L3Cache>260 MB</L3Cache>
+        <TDP>300 W</TDP>
+        <Released>Dec 14th, 2023</Released>
+    </Processor>
+    <Processor>
+        <Name>Xeon Platinum 8562Y+</Name>
+        <Codename>Emerald Rapids</Codename>
+        <Cores>32 / 64</Cores>
+        <Clock>2.8 to 4.1 GHz</Clock>
+        <Socket>Socket 4677</Socket>
+        <Process>10 nm</Process>
+        <L3Cache>60 MB</L3Cache>
+        <TDP>300 W</TDP>
+        <Released>Dec 14th, 2023</Released>
+    </Processor>
+    <Processor>
+        <Name>Xeon Platinum 8568Y+</Name>
+        <Codename>Emerald Rapids</Codename>
+        <Cores>48 / 96</Cores>
+        <Clock>2.3 to 4 GHz</Clock>
+        <Socket>Socket 4677</Socket>
+        <Process>10 nm</Process>
+        <L3Cache>300 MB</L3Cache>
+        <TDP>350 W</TDP>
+        <Released>Dec 14th, 2023</Released>
+    </Processor>
+    <Processor>
+        <Name>Xeon Platinum 8570</Name>
+        <Codename>Emerald Rapids</Codename>
+        <Cores>56 / 112</Cores>
+        <Clock>2.1 to 4 GHz</Clock>
+        <Socket>Socket 4677</Socket>
+        <Process>10 nm</Process>
+        <L3Cache>300 MB</L3Cache>
+        <TDP>350 W</TDP>
+        <Released>Dec 14th, 2023</Released>
+    </Processor>
+    <Processor>
+        <Name>Xeon Platinum 8571N</Name>
+        <Codename>Emerald Rapids</Codename>
+        <Cores>52 / 104</Cores>
+        <Clock>2.4 to 4 GHz</Clock>
+        <Socket>Socket 4677</Socket>
+        <Process>10 nm</Process>
+        <L3Cache>300 MB</L3Cache>
+        <TDP>300 W</TDP>
+        <Released>Dec 14th, 2023</Released>
+    </Processor>
+    <Processor>
+        <Name>Xeon Platinum 8580</Name>
+        <Codename>Emerald Rapids</Codename>
+        <Cores>60 / 120</Cores>
+        <Clock>2 to 4 GHz</Clock>
+        <Socket>Socket 4677</Socket>
+        <Process>10 nm</Process>
+        <L3Cache>300 MB</L3Cache>
+        <TDP>350 W</TDP>
+        <Released>Dec 14th, 2023</Released>
+    </Processor>
+    <Processor>
+        <Name>Xeon Platinum 8581V</Name>
+        <Codename>Emerald Rapids</Codename>
+        <Cores>64 / 128</Cores>
+        <Clock>2 to 3.9 GHz</Clock>
+        <Socket>Socket 4677</Socket>
+        <Process>10 nm</Process>
+        <L3Cache>300 MB</L3Cache>
+        <TDP>270 W</TDP>
+        <Released>Dec 14th, 2023</Released>
+    </Processor>
+    <Processor>
+        <Name>Xeon Platinum 8592+</Name>
+        <Codename>Emerald Rapids</Codename>
+        <Cores>64 / 128</Cores>
+        <Clock>1.9 to 3.9 GHz</Clock>
+        <Socket>Socket 4677</Socket>
+        <Process>10 nm</Process>
+        <L3Cache>320 MB</L3Cache>
+        <TDP>350 W</TDP>
+        <Released>Dec 14th, 2023</Released>
+    </Processor>
+    <Processor>
+        <Name>Xeon Platinum 8592V</Name>
+        <Codename>Emerald Rapids</Codename>
+        <Cores>64 / 128</Cores>
+        <Clock>2 to 3.9 GHz</Clock>
+        <Socket>Socket 4677</Socket>
+        <Process>10 nm</Process>
+        <L3Cache>320 MB</L3Cache>
+        <TDP>330 W</TDP>
+        <Released>Dec 14th, 2023</Released>
+    </Processor>
+    <Processor>
+        <Name>Xeon Platinum 8593Q</Name>
+        <Codename>Emerald Rapids</Codename>
+        <Cores>64 / 128</Cores>
+        <Clock>2.2 to 3.9 GHz</Clock>
+        <Socket>Socket 4677</Socket>
+        <Process>10 nm</Process>
+        <L3Cache>320 MB</L3Cache>
+        <TDP>385 W</TDP>
+        <Released>Dec 14th, 2023</Released>
+    </Processor>
+    <Processor>
+        <Name>Xeon Silver 3508U</Name>
+        <Codename>Sapphire Rapids</Codename>
+        <Cores>8 / 16</Cores>
+        <Clock>2.1 to 2.2 GHz</Clock>
+        <Socket>Socket 4677</Socket>
+        <Process>10 nm</Process>
+        <L3Cache>22.5 MB</L3Cache>
+        <TDP>125 W</TDP>
+        <Released>Dec 14th, 2023</Released>
+    </Processor>
+    <Processor>
+        <Name>Xeon Silver 4509Y</Name>
+        <Codename>Sapphire Rapids</Codename>
+        <Cores>8 / 16</Cores>
+        <Clock>2.6 to 4.1 GHz</Clock>
+        <Socket>Socket 4677</Socket>
+        <Process>10 nm</Process>
+        <L3Cache>22.5 MB</L3Cache>
+        <TDP>125 W</TDP>
+        <Released>Dec 14th, 2023</Released>
+    </Processor>
+    <Processor>
+        <Name>Xeon Silver 4510</Name>
+        <Codename>Sapphire Rapids</Codename>
+        <Cores>12 / 24</Cores>
+        <Clock>2.4 to 4.1 GHz</Clock>
+        <Socket>Socket 4677</Socket>
+        <Process>10 nm</Process>
+        <L3Cache>30 MB</L3Cache>
+        <TDP>150 W</TDP>
+        <Released>Dec 14th, 2023</Released>
+    </Processor>
+    <Processor>
+        <Name>Xeon Silver 4510T</Name>
+        <Codename>Sapphire Rapids</Codename>
+        <Cores>12 / 24</Cores>
+        <Clock>2 to 3.7 GHz</Clock>
+        <Socket>Socket 4677</Socket>
+        <Process>10 nm</Process>
+        <L3Cache>30 MB</L3Cache>
+        <TDP>115 W</TDP>
+        <Released>Dec 14th, 2023</Released>
+    </Processor>
+    <Processor>
+        <Name>Xeon Silver 4514Y</Name>
+        <Codename>Emerald Rapids</Codename>
+        <Cores>16 / 32</Cores>
+        <Clock>2 to 3.4 GHz</Clock>
+        <Socket>Socket 4677</Socket>
+        <Process>10 nm</Process>
+        <L3Cache>30 MB</L3Cache>
+        <TDP>150 W</TDP>
+        <Released>Dec 14th, 2023</Released>
+    </Processor>
+    <Processor>
+        <Name>Xeon Silver 4516Y+</Name>
+        <Codename>Emerald Rapids</Codename>
+        <Cores>24 / 48</Cores>
+        <Clock>2.2 to 3.7 GHz</Clock>
+        <Socket>Socket 4677</Socket>
+        <Process>10 nm</Process>
+        <L3Cache>45 MB</L3Cache>
+        <TDP>185 W</TDP>
+        <Released>Dec 14th, 2023</Released>
+    </Processor>
+    <Processor>
+        <Name>Xeon w7-3445</Name>
+        <Codename>Sapphire Rapids</Codename>
+        <Cores>20 / 40</Cores>
+        <Clock>2.5 to 4.8 GHz</Clock>
+        <Socket>Socket 4677</Socket>
+        <Process>10 nm</Process>
+        <L3Cache>52.5 MB</L3Cache>
+        <TDP>270 W</TDP>
+        <Released>Feb 15th, 2023</Released>
+    </Processor>
+    <Processor>
+        <Name>Xeon w7-3455</Name>
+        <Codename>Sapphire Rapids</Codename>
+        <Cores>24 / 48</Cores>
+        <Clock>2.5 to 4.8 GHz</Clock>
+        <Socket>Socket 4677</Socket>
+        <Process>10 nm</Process>
+        <L3Cache>67.5 MB</L3Cache>
+        <TDP>270 W</TDP>
+        <Released>Feb 15th, 2023</Released>
+    </Processor>
+    <Processor>
+        <Name>Xeon w7-3465X</Name>
+        <Codename>Sapphire Rapids</Codename>
+        <Cores>28 / 56</Cores>
+        <Clock>2.5 to 4.8 GHz</Clock>
+        <Socket>Socket 4677</Socket>
+        <Process>10 nm</Process>
+        <L3Cache>75 MB</L3Cache>
+        <TDP>300 W</TDP>
+        <Released>Feb 15th, 2023</Released>
+    </Processor>
+    <Processor>
+        <Name>Xeon w9-3475X</Name>
+        <Codename>Sapphire Rapids</Codename>
+        <Cores>36 / 72</Cores>
+        <Clock>2.2 to 4.8 GHz</Clock>
+        <Socket>Socket 4677</Socket>
+        <Process>10 nm</Process>
+        <L3Cache>82.5 MB</L3Cache>
+        <TDP>300 W</TDP>
+        <Released>Feb 15th, 2023</Released>
+    </Processor>
+    <Processor>
+        <Name>Xeon w9-3495X</Name>
+        <Codename>Sapphire Rapids</Codename>
+        <Cores>56 / 112</Cores>
+        <Clock>1.9 to 4.8 GHz</Clock>
+        <Socket>Socket 4677</Socket>
+        <Process>10 nm</Process>
+        <L3Cache>105 MB</L3Cache>
+        <TDP>350 W</TDP>
+        <Released>Feb 15th, 2023</Released>
+    </Processor>
+</Processors>

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title></title>
+    <link href="index.css" rel="stylesheet" />
+    <link href="colors.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="loginWrapper">
+        <div class="heartGroup cursor-hover" style="scale: 1.5">
+          <h1>0</h1>
+          <div class="savedList hide">
+            <div class="dropDownSvg"></div>
+            <div class="grid-container">
+              <div class="grid-item header-item">Name</div>
+              <div class="grid-item header-item">Process</div>
+              <div class="grid-item header-item">TDP</div>
+              <div class="grid-item header-item">Socket</div>
+              <div class="grid-item header-item">Action</div>
+            </div>
+          </div>
+        </div>
+        <div class="dropDownUser cursor-hover" onclick="logout()"></div>
+      </div>
+      <div class="mainWrapper">
+        <div class="filterWrapper">
+          <div class="clearAll">
+            <h1>Filters</h1>
+            <div class="clearAllButton cursor-hover" onclick="clearAll()">
+              Clear All
+            </div>
+          </div>
+          <div class="filterElems">
+            <div class="filterElem process cursor-hover" id="1">
+              <div>
+                <div class="filterSvg"></div>
+                <h1>Manufacturing Process</h1>
+              </div>
+              <div class="dropDownSvg"></div>
+            </div>
+            <div class="filterDropDown processDrop cursor-hover" id="1"></div>
+            <div class="filterElem tdp cursor-hover" id="2">
+              <div>
+                <div class="filterSvg"></div>
+                <h1>TDP</h1>
+              </div>
+              <div class="dropDownSvg"></div>
+            </div>
+            <div class="filterDropDown tdpDrop" id="2">
+              <div>
+                <input
+                  id="t1"
+                  type="checkbox"
+                  value="100"
+                  data-use="Tdp"
+                  onclick="ispisi()"
+                />
+                <label for="t1">0-100 W</label>
+              </div>
+              <div>
+                <input
+                  id="t2"
+                  type="checkbox"
+                  value="200"
+                  data-use="Tdp"
+                  onclick="ispisi()"
+                />
+                <label for="t2">100-200 W</label>
+              </div>
+              <div>
+                <input
+                  id="t3"
+                  type="checkbox"
+                  value="300"
+                  data-use="Tdp"
+                  onclick="ispisi()"
+                />
+                <label for="t3">200-300 W</label>
+              </div>
+              <div>
+                <input
+                  id="t4"
+                  type="checkbox"
+                  value="400"
+                  data-use="Tdp"
+                  onclick="ispisi()"
+                />
+                <label for="t4">300-400 W</label>
+              </div>
+            </div>
+            <div class="filterElem socket cursor-hover" id="3">
+              <div>
+                <div class="filterSvg"></div>
+                <h1>Socket</h1>
+              </div>
+              <div class="dropDownSvg"></div>
+            </div>
+            <div class="filterDropDown socketDrop" id="3"></div>
+          </div>
+        </div>
+        <div class="gridWrapper">
+          <div class="searchBar">
+            <input type="text" id="search" oninput="ispisi()" />
+          </div>
+          <div class="filteredList"></div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="./index.js"></script>
+</html>

@@ -1,0 +1,131 @@
+@import url(../colors.css);
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+body {
+  height: 80vh;
+  background: var(--bg-gray);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#loginform {
+  border: none;
+  background-color: #f2f2f2;
+  border-radius: 2px;
+  margin: auto;
+  display: block;
+  height: 256px;
+  margin: 50px auto;
+  width: 356px;
+  padding: 22px;
+  scale: 1.25;
+}
+
+#loginform:before {
+  content: "Login Form";
+  background-color: var(--purple-color);
+  background-image: -moz-linear-gradient(
+    top,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(0, 0, 0, 0.3) 100%
+  ); /* FF3.6+ */
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    color-stop(0%, rgba(0, 0, 0, 0)),
+    color-stop(100%, rgba(0, 0, 0, 0.3))
+  ); /* Chrome,Safari4+ */
+  background-image: -webkit-linear-gradient(
+    top,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(0, 0, 0, 0.3) 100%
+  ); /* Chrome10+,Safari5.1+ */
+  background-image: -o-linear-gradient(
+    top,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(0, 0, 0, 0.3) 100%
+  ); /* Opera 11.10+ */
+  background-image: -ms-linear-gradient(
+    top,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(0, 0, 0, 0.3) 100%
+  ); /* IE10+ */
+  background-image: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(0, 0, 0, 0.3) 100%
+  ); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#99000000',GradientType=0 ); /* IE6-9 */
+  border: 1px solid #926995;
+  border-radius: 2px 2px 0 0;
+  color: #fff;
+  display: block;
+  font: 600 16px Source Sans Pro;
+  line-height: 65px;
+  margin: -22px -22px 25px;
+  padding-left: 23px;
+  text-shadow: 1px 1px 1px rgba(53, 16, 56, 0.5);
+}
+
+.login-username label,
+.login-password label {
+  display: none;
+  text-indent: -9999px;
+}
+
+.input {
+  background-color: #f0eef0;
+  border: solid 1px #dcdcdc;
+  border-radius: 3px;
+  box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.8);
+  box-sizing: border-box;
+  color: #999999;
+  font-size: 14px;
+  font-weight: 600;
+  height: 50px;
+  line-height: auto;
+  outline: none;
+  padding-left: 20px;
+  width: 100%;
+  box-sizing: border-box;
+  margin-bottom: 5px;
+  transition: border 0.3s linear;
+}
+
+.input:focus {
+  border: solid 1px #926995;
+  transition: border 0.1s linear;
+}
+
+.button-primary {
+  background: var(--purple-color); /* Old browsers */
+  border: 1px solid #67466a;
+  border-radius: 3px;
+  color: #fff;
+  cursor: pointer;
+  font: 600 14px Source Sans Pro;
+  height: 40px;
+  margin-top: 14px;
+  text-shadow: 0 0 1px #000;
+  width: 100px;
+  transition: box-shadow 0.3s linear;
+}
+
+.button-primary:hover {
+  box-shadow: 0 0 3px 1px #926995;
+  transition: border 0.2s linear, box-shadow 0.2s linear;
+}
+
+.login-submit {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}

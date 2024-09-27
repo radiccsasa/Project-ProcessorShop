@@ -1,0 +1,291 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings: "slnt" 0;
+  box-sizing: border-box;
+}
+h1,
+h2,
+h3 {
+  all: unset;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: var(--bg-gray);
+}
+.wrapper {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.loginWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 10px;
+  gap: 5px;
+  border-radius: 10px;
+  background: #fff;
+  margin-top: 10px;
+}
+
+.heartGroup {
+  background: url("/assets/vectors/heart.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 32px;
+  height: 28px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.dropDownUser {
+  background: url("/assets/vectors/user.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: var(--purple-color);
+  background-position: center;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  margin-left: 10px;
+}
+.mainWrapper {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.filterWrapper {
+  width: 20%;
+  min-height: 500px;
+  height: fit-content;
+  border-radius: 10px;
+  background-color: #fff;
+  border: 1px solid var(--gray-border);
+}
+.gridWrapper {
+  width: 80%;
+  border: 1px solid var(--gray-border);
+  border-radius: 9px;
+}
+.clearAll {
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+  margin-bottom: 30px;
+  padding: 10px;
+}
+.clearAll h1 {
+  font-size: 25px;
+  font-weight: 500;
+}
+.clearAllButton {
+  padding: 5px;
+  border: 2px solid var(--bg-gray);
+  border-radius: 3px;
+}
+.filterElems {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.filterElem {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  border-top: 1px solid var(--gray-border);
+  border-bottom: 1px solid var(--gray-border);
+  height: 50px;
+  padding: 10px;
+}
+.filterElem div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.filterSvg {
+  background: url("/assets/vectors/MakeAndModel.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 32px;
+  height: 28px;
+}
+.dropDownSvg {
+  background: url("/assets/vectors/dropDown.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  width: 25px;
+  height: 18px;
+  scale: 0.8;
+  transition: 200ms;
+}
+.rotated {
+  transform: rotate(-90deg);
+}
+.filterDropDown {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  padding: 5px 0 5px 20px;
+  gap: 3px;
+}
+.filterDropDown div {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+}
+input {
+  width: 16px;
+  height: 16px;
+}
+label {
+  height: 100%;
+}
+.hide {
+  display: none;
+}
+.searchBar {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 10px;
+}
+.searchBar input {
+  width: 200px;
+  height: 30px;
+}
+.filteredList {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  padding: 10px;
+  gap: 10px;
+  position: relative;
+}
+.cpuClass {
+  width: 190px;
+  height: 270px;
+  border: 1px solid var(--gray-border);
+  border-radius: 12px;
+  position: relative;
+}
+.image {
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  border-radius: 12px 12px 0 0;
+  height: 100px;
+}
+.description {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  gap: 5px;
+  height: 130px;
+  padding: 10px;
+}
+.description div {
+  z-index: 0;
+}
+.like {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
+.cpuCLass div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.liked {
+  background-image: url("/assets/vectors/liked.svg");
+}
+.heartGroup {
+  z-index: 5;
+}
+.heartGroup h1 {
+  font-size: 12px;
+}
+.cursor-hover:hover {
+  cursor: pointer;
+}
+.tdp .filterSvg {
+  background-image: url("/assets/vectors/tdp.svg");
+}
+.process .filterSvg {
+  background-image: url("/assets/vectors/process.svg");
+}
+.socket .filterSvg {
+  background-image: url("/assets/vectors/socket.svg");
+}
+.savedList {
+  width: 400px;
+  height: 250px;
+  border: 1px solid #000;
+  position: absolute;
+  top: 38px;
+  right: 0;
+  border-radius: 5px;
+  z-index: 2;
+  background: #fff;
+  cursor: default;
+}
+.savedList .dropDownSvg {
+  position: absolute;
+  right: 3px;
+  top: -13.4px;
+  transform: rotate(-180deg);
+  scale: 0.7;
+}
+
+.grid-container {
+  height: 250px;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: auto repeat(4, 1fr);
+  gap: 0;
+  overflow: auto;
+  scroll-behavior: smooth;
+}
+
+.grid-item {
+  border: var(--gray-border);
+  min-height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 12px;
+}
+
+.header-item {
+  font-weight: bold;
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.delete-button {
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
